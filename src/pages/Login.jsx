@@ -12,7 +12,7 @@ export default function Login({ token }) {
   return (
     <div className="flex flex-col items-center justify-center h-[80vh] text-center">
       <h1 className="text-4xl font-bold mb-6">
-        Bienvenue sur Mon Profil Spotify 🎧
+        Bienvenue sur Mon Profil Spotify
       </h1>
       <p className="text-neutral-600 mb-8 max-w-md">
         Connecte-toi à ton compte Spotify pour découvrir ton profil, tes
