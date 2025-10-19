@@ -19,11 +19,11 @@ export default function Login({ token }) {
         artistes et tes titres préférés.
       </p>
       <button
-  onClick={redirectToSpotifyAuth}
-  className="bg-green-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-green-600 transition"
->
-  Se connecter avec Spotify
-</button>
+        onClick={redirectToSpotifyAuth}
+        className="bg-green-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-green-600 transition"
+      >
+        Se connecter avec Spotify
+      </button>
     </div>
   );
 }
